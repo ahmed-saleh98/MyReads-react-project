@@ -62,7 +62,6 @@ class App extends React.Component {
 
   render() {
     const { books, bookShelves, searchBooks } = this.state;
-    console.log(books);
     return (
       <div className="app">
         <Route exact path="/">
