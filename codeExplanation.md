@@ -20,12 +20,12 @@
 # Data:
 
 1:books from database:
-assigned to (App.js) by (getAll()) method and passed down through components to (Book.js).
+assigned to [App.js] by (getAll()) method and passed down through components to [Book.js].
 
 ---
 
 2:book shelves
-declared in (App.js) and passed to (Home.js) to loop over it to craete shelves.
+declared in [App.js] and passed to [Home.js] to loop over it to craete shelves.
 
 ---
 
@@ -55,13 +55,13 @@ it just reset state.
 
 ### 1:handleChange:
 
-handels input change by updating state ,invokes {search()} which invoke {searchForBooks() in App.js} and pass the event target's value to it.
+handels input change by updating state ,invokes {search()} which invoke {searchForBooks() in [App.js]} and pass the event target's value to it.
 
 ---
 
 ### 2:onClick at the close-search button
 
-it invokes the {resetSearch() in App.js} to reset the search data
+it invokes the {resetSearch() in [App.js]} to reset the search data
 
 ---
 
@@ -69,4 +69,4 @@ it invokes the {resetSearch() in App.js} to reset the search data
 
 ### 1:handleChange:
 
-handels select change by updating state ,invokes {onMoveBook()} which invoke {onMoveBook() in App.js} and pass the to it the book which had changed and the value of this change.
+handels select change by updating state ,invokes {onMoveBook()} which invoke {onMoveBook() in [App.js]} and pass the to it the book which had changed and the value of this change.

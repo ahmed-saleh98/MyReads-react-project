@@ -17,12 +17,9 @@ class App extends React.Component {
   };
 
   // get data from DB
-  componentDidMount() {
-    BooksAPI.getAll().then((books) => {
-      this.setState(() => ({
-        books,
-      }));
-    });
+  async componentDidMount() {
+    const books = await BooksAPI.getAll();
+    this.setState({ books });
   }
 
   // move books between shelves
@@ -62,7 +59,6 @@ class App extends React.Component {
 
   render() {
     const { books, bookShelves, searchBooks } = this.state;
-    console.log(books);
     return (
       <div className="app">
         <Route exact path="/">
