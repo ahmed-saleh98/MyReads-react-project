@@ -23,4 +23,4 @@ MyReads:A Book Tracking App.
 
 ## Code Explanition.
 
-you cod read [codeExplanation.md](codeExplanation.md)
+you could read [codeExplanation.md](codeExplanation.md)
