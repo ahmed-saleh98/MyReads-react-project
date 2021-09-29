@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/MyReads-react-project/static/media/add.bb9363b8.svg"
   },
   {
-    "revision": "78c6f53b2342643639fe1cbaf171bf47",
-    "url": "/MyReads-react-project/static/media/arrow-drop-down.78c6f53b.svg"
-  },
-  {
     "revision": "3687aa988bec28f17ae39153db1646c3",
     "url": "/MyReads-react-project/static/media/arrow-back.3687aa98.svg"
+  },
+  {
+    "revision": "78c6f53b2342643639fe1cbaf171bf47",
+    "url": "/MyReads-react-project/static/media/arrow-drop-down.78c6f53b.svg"
   },
   {
     "revision": "17a9ed7750a388bbd80722e2ce0a7a8d",
