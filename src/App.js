@@ -1,5 +1,6 @@
 import React from "react";
 import * as BooksAPI from "./BooksAPI";
+import { debounce } from "throttle-debounce";
 import "./App.css";
 import { Route } from "react-router-dom";
 import Search from "./components/Search";
@@ -39,7 +40,8 @@ class App extends React.Component {
   };
 
   // handle search
-  searchForBooks = (query) => {
+  searchForBooks = debounce(350, false, (query) => {
+    console.log(query);
     if (query.length > 0) {
       BooksAPI.search(query).then((books) => {
         if (books.error) {
@@ -51,7 +53,7 @@ class App extends React.Component {
     } else {
       this.setState({ searchBooks: [] });
     }
-  };
+  });
 
   resetSearch = () => {
     this.setState({ searchBooks: [] });
