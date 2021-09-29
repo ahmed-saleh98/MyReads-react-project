@@ -5,10 +5,10 @@ MyReads:A Book Tracking App.
 
 # Installing.
 
-1: download the code.
-2: to install react scripts run:
+- 1: download the code.
+- 2: to install react scripts run:
 (npm install) or (yarn install)
-3: to start the live server in your local machine run:
+- 3: to start the live server in your local machine run:
 (npm start) or (yarn start)
 
 # Deployment.
@@ -19,8 +19,8 @@ MyReads:A Book Tracking App.
 
 ## Author.
 
-- **Ahmed Saleh** [ahmed-saleh].(https://github.com/ahmed-saleh98)
+- **Ahmed Saleh** [ahmed-saleh](https://github.com/ahmed-saleh98)
 
 ## Code Explanition.
 
-you cod read [codeExplanation.md].(codeExplanation.md)
+you could read [codeExplanation.md](codeExplanation.md)
